@@ -1,0 +1,22 @@
+INFO: Initiating Program
+INFO: User picked and created a: youtube converter
+INFO: Video name is: charley 
+INFO: Sending the following request: https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=charley+&key=AIzaSyBg980rLuHnKfqmBKnVNFJtDanHk5Lw-5U&maxResults=1
+INFO: Received Youtube API response, deserializing required video id from json
+INFO: The Video ID of the given Video name is nU6CP-1Fe_c
+INFO: Sending Video ID to Downloader API
+INFO: initiation for the YoutubeVideo class
+INFO: Format typed in by user is mp4
+INFO: The formats are compatiable, starting conversion...
+INFO: Sending the following conversion request: https://t-one-youtube-converter.p.rapidapi.com/api/v1/createProcess?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnU6CP-1Fe_c&format=mp4&responseFormat=json&regenerate=true
+INFO: full request is:  https://t-one-youtube-converter.p.rapidapi.com/api/v1/createProcess?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnU6CP-1Fe_c&format=mp4&responseFormat=json&regenerate=true GET
+INFO: Received response from API, deserializing from json and passing required download link
+INFO: Preparing mp4 link and sending it to the browser
+INFO: false
+Error: Malformed url exception, no video url provided from api. Handling exception.
+INFO: Preparing mp3 link and sending it to the browser
+INFO: false
+Error: Malformed url exception, no video url provided from api. Handling exception.
+INFO: Preparing mp3 link and sending it to the browser
+INFO: false
+Error: Malformed url exception, no video url provided from api. Handling exception.
